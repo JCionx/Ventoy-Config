@@ -1,0 +1,126 @@
+{
+    "control":[
+        { "VTOY_DEFAULT_MENU_MODE": "1" },
+        { "VTOY_DEFAULT_SEARCH_ROOT": "/ISO" }
+    ],
+
+    "theme": {
+        "file": "/ventoy/theme/jcionx/theme.txt",
+        "gfxmode": "1920x1080",
+        "display_mode": "GUI",
+        "ventoy_left": "70%",
+        "ventoy_top": "95%",
+        "ventoy_color": "#9c9c9c"
+    },
+
+    "menu_class": [
+        {
+            "key": "Arch_Linux",
+            "class": "archlinux"
+        },
+        {
+            "key": "Clonezilla",
+            "class": "clonezilla"
+        },
+        {
+            "key": "Debian",
+            "class": "debian"
+        },
+        {
+            "key": "Fedora",
+            "class": "Fedora"
+        },
+	{
+            "key": "Kali",
+            "class": "kali"
+        },
+        {
+            "key": "Linux_Mint",
+            "class": "linuxmint"
+        },
+        {
+            "key": "Windows_7",
+            "class": "win7"
+        },
+        {
+            "key": "Windows_8.1",
+            "class": "win8"
+        },
+        {
+            "key": "Windows_10",
+            "class": "win10"
+        },
+        {
+            "key": "Tiny_10",
+            "class": "win10"
+        },
+        {
+            "key": "Windows_11",
+            "class": "win11"
+        },
+        {
+            "key": "Tiny_11",
+            "class": "win11"
+        },
+        {
+            "key": "Windows_Vista",
+            "class": "winvista"
+        },
+        {
+            "key": "Windows_XP",
+            "class": "winxp"
+        },
+        {
+            "key": "Ubuntu",
+            "class": "ubuntu"
+        },
+        {
+            "key": "Lubuntu",
+            "class": "lubuntu"
+        },
+        {
+            "key": "Hirens_BootCD_PE",
+            "class": "hbcd"
+        },
+        {
+            "key": "GParted",
+            "class": "gparted"
+        },
+        {
+            "dir": "/ISO/Windows",
+            "class": "windows"
+        },
+        {
+            "dir": "/ISO/Linux",
+            "class": "linux"
+        },
+        {
+            "dir": "/ISO/Tools",
+            "class": "utility"
+        },
+        {
+            "dir": "/ISO/Tools/x64",
+            "class": "x64"
+        },
+        {
+            "dir": "/ISO/Tools/x86",
+            "class": "x86"
+        },
+        {
+            "dir": "/ISO/Windows/x64",
+            "class": "x64"
+        },
+        {
+            "dir": "/ISO/Windows/x64/Mods",
+            "class": "utility"
+        },
+        {
+            "dir": "/ISO/Windows/x86",
+            "class": "x86"
+        },
+        {
+            "dir": "/ISO/Linux/x64",
+            "class": "x64"
+        }
+    ]
+}
